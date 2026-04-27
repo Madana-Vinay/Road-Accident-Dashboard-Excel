@@ -1,0 +1,79 @@
+# 🚗 Road Accident Dashboard — Excel
+
+An interactive Excel dashboard analysing **417,883 road accident casualties** across 2021–2022. Built with pivot tables, slicers, and charts — no macros or VBA required.
+
+---
+
+## 📊 Dashboard Preview
+
+![Dashboard](Dashboard.jpeg)
+
+---
+
+## 🔢 Key Metrics
+
+| Metric | Value |
+|---|---|
+| Total Casualties | 417,883 |
+| Fatal Casualties | 7,135 (1.7%) |
+| Serious Casualties | 59,312 (14.2%) |
+| Slight Casualties | 351,436 (84.1%) |
+| Casualties by Car | 333,485 (79.8%) |
+
+---
+
+## 📁 Features
+
+- **KPI Cards** — Fatal, Serious, Slight, and Car casualty summaries with % share
+- **Monthly Trend** — CY vs PY (2022 vs 2021) line chart for all 12 months
+- **Casualties by Vehicle Type** — Car, Truck, Bus, Bike, Agricultural, Other
+- **Casualties by Road Type** — Single carriageway, Dual carriageway, Roundabout, One-way, Slip road
+- **Casualties by Road Surface** — Dry, Wet, Snow/Ice
+- **Casualties by Location** — Urban vs Rural donut chart
+- **Casualties by Light Condition** — Daylight vs Dark donut chart
+- **Filter Panel** — Slice by Accident Date (Year) and Urban/Rural area
+
+---
+
+## 🛠️ Built With
+
+- Microsoft Excel (Pivot Tables, Pivot Charts)
+- Slicers & Timelines for interactive filtering
+- Conditional Formatting for KPI indicators
+- Custom chart formatting (dark theme)
+
+---
+
+## 🚀 Getting Started
+
+1. Clone or download this repository
+2. Open `Road_Accident_Dashboard.xlsx` in Microsoft Excel (2016 or later recommended)
+3. Use the **Filter Panel** on the right to slice by year or location type
+4. All charts update automatically based on slicer selections
+
+---
+
+## 📂 File Structure
+
+```
+road-accident-dashboard/
+├── Road_Accident_Dashboard.xlsx   # Main dashboard file
+├── Dashboard.jpeg                 # Dashboard screenshot
+└── README.md
+```
+
+---
+
+## 📌 Insights
+
+- **Single carriageways** account for the most casualties (309.7K)
+- **Cars** are involved in nearly 80% of all casualties
+- **Dry road surfaces** see more accidents (279,445) than wet (115,261)
+- **Urban areas** have slightly more casualties than rural
+- **Daytime accidents** (305K) outnumber dark-condition ones (112.9K)
+
+---
+
+## 📃 License
+
+This project is for educational and portfolio purposes.
